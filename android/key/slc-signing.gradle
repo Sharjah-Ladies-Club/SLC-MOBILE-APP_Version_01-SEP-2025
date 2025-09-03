@@ -1,0 +1,11 @@
+android {
+    signingConfigs {
+        debug {
+            // TODO Update Key store path
+        }
+
+        release {
+            // TODO Update Key store path
+        }
+    }
+}

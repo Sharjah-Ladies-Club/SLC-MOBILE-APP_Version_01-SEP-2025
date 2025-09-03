@@ -1,0 +1,320 @@
+name: slc
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://d eveloper.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+
+#Android
+version: 3.4.9+600
+#Ios
+#version: 1.8.8+14
+
+environment:
+  sdk: ">=2.2.2 <3.0.5"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.4
+  logger: ^1.1.0
+  encrypt: ^5.0.1
+  equatable: ^2.0.3
+  flutter_bloc: ^5.0.1
+  dropdown_plus: ^0.0.9
+  shared_preferences: ^2.0.15
+  synchronized: ^3.0.0
+  connectivity: ^3.0.6
+  firebase_crashlytics: ^2.8.13
+  firebase_remote_config: ^2.0.20
+  firebase_core: ^1.24.0
+  firebase_auth: ^3.11.2
+  firebase_messaging: ^13.1.0
+  firebase_analytics: ^9.3.8
+  firebase_core_platform_interface: ^4.5.1
+  package_info_plus: ^1.4.0
+  sqflite: ^2.2.2
+  sqflite_common_ffi: ^2.2.0+1
+  path_provider: ^2.0.9
+  permission_handler: ^10.4.5
+  flutter_svg: ^1.1.1+1
+  flutter_svg_provider: ^1.0.3
+  flutter_local_notifications: ^11.0.0
+  url_launcher: ^6.1.5
+  image_picker: ^0.8.4+11
+  webview_flutter: ^3.0.4
+  flutter_html: ^3.0.0-alpha.6
+  progress_dialog: ^1.2.0
+  phone_number: ^1.0.0
+  countdown: ^0.1.0
+  flutter_form_builder: ^7.7.0
+  keyboard_avoider: 0.1.2
+  auto_size_text: ^2.1.0
+  grouped_buttons: ^1.0.4
+  qr_flutter: ^3.1.0
+  carousel_slider: ^3.0.0
+  easy_localization: 3.0.1
+  string_validator: ^0.1.3
+  flutter_email_sender: ^5.2.0
+  extended_nested_scroll_view:  3.0.0
+  timeago: ^2.0.26
+  store_redirect: ^2.0.1
+  circular_profile_avatar: ^1.0.6
+  share: ^0.6.3+5
+  get: 4.1.4
+  intl: ^0.17.0
+  barcode: ^1.16.1
+  path_drawing: ^1.0.0
+  flutter_webview_plugin: ^0.4.0
+  date_calc: ^0.1.0
+  scroll_to_index: 1.0.6
+  dotted_border: 2.0.0+3
+#  image_downloader: ^0.31.0
+  table_calendar: ^2.1.0
+  signature: ^5.2.1
+  google_maps_flutter: ^2.2.2
+  location: ^4.4.0
+  flutter_polyline_points: ^1.0.0
+  geocoding: ^2.0.5
+  qr_code_scanner: ^1.0.1
+  video_player: 2.7.0
+  chewie: 1.1.0
+  carousel_indicator: ^1.0.6
+  plugin_platform_interface: ^2.1.0
+  circle_checkbox: ^0.0.2+1
+  date_picker_timeline: ^1.2.3
+  apple_pay_flutter: ^0.0.8
+  geolocator: ^9.0.0
+  http: ^0.13.0
+  open_filex: ^4.7.0
+
+
+
+      # The following adds the Cupertino Icons font to your application.
+    # Use with the CupertinoIcons class for iOS style icons.
+#
+
+
+#  package_info: 0.4.0+17
+#  flutter_cupertino_date_picker: ^1.0.26+2
+    #  flutter_html_textview_render: ^0.1.3
+  #  flutter_html: ^2.2.1
+  #  groovin_widgets: ^3.1.0
+  #  bloc: 5.0.0
+  #  flutter_bloc: 5.0.0
+#  samsungpay: ^0.0.3
+#  barcode_scan_fix: ^1.0.2
+#  spea_mobile_qrcode: ^0.0.2
+#  flutter_pay: 1.0.2
+#  location: ^2.5.4
+#  provider: ^4.3.3
+
+#  gm_core:
+#        path: C:\Users\sathyanarayanan.subr\Impiger\Repo\gmcore_flutter\gm_core
+#    git:
+#      url: https://sathyanarayanan_subramaniyan@bitbucket.org/sathyanarayanan_subramaniyan/gmcore_flutter.git
+#      path: gm_core
+#  user_repository:
+#    path: user_repository
+#module:
+#    androidX: true
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+dependency_overrides:
+#  intl: ^0.17.0-nullsafety.2
+  firebase_core_platform_interface: 4.5.1
+
+
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/ic_launcher.png
+    - assets/images/double_ring.gif
+    - assets/images/Mask_Group.png
+    - assets/images/UnionFace.png
+    - assets/images/language_icon.png
+    - assets/images/logout_icon.png
+    - resources/langs/ar-DZ.json
+    - resources/langs/en-US.json
+    - assets/images/leftArrow.png
+    - assets/images/img_error.png
+    - assets/images/Register_1.png
+    - assets/images/Register_2.png
+    - assets/images/splash_screen.png
+    - assets/images/emailConform.png
+    - assets/images/otp.png
+    - assets/images/qrcode.png
+    - assets/images/new_ic_launcher.png
+    - assets/images/ic_chatbot.svg
+    - assets/images/more_about.svg
+    - assets/images/more_call.svg
+    - assets/images/more_location.svg
+    - assets/images/more_mail.svg
+    - assets/images/more_social_fb.svg
+    - assets/images/more_social_instagram.svg
+    - assets/images/more_social_tw.svg
+    - assets/images/more_social_web.svg
+    - assets/images/logout_icon.svg
+    - assets/images/more_language.svg
+    - assets/images/home_icon.png
+    - assets/images/beach_pass.png
+    - assets/images/noimage.png
+    - assets/images/MembershipCard.png
+    - assets/images/main_bg.png
+    - assets/images/destination_map_marker.png
+    - assets/images/beachorder.png
+    - assets/images/table_layout_1.png
+    - assets/images/table_layout_2.png
+    - assets/images/table_layout_3.png
+    - assets/images/table_layout_4.png
+    - assets/images/tbl_icon.png
+    - assets/images/discount.png
+    - assets/images/2.png
+    - assets/images/4.png
+    - assets/images/6.png
+    - assets/images/5.png
+    - assets/images/giftvoucher.png
+    - assets/images/1_logo.png
+    - assets/images/2_logo.png
+    - assets/images/3_logo.png
+    - assets/images/4_logo.png
+    - assets/images/5_logo.png
+    - assets/images/6_logo.png
+    - assets/images/7_logo.png
+    - assets/images/8_logo.png
+    - assets/images/9_logo.png
+    - assets/images/10_logo.png
+    - assets/images/10_11_12_logo.png
+    - assets/images/13_logo.png
+    - assets/images/14_logo.png
+    - assets/images/bronze.png
+    - assets/images/silver.png
+    - assets/images/gold.png
+    - assets/images/platinum.png
+    - assets/images/workout.jpg
+    - assets/images/birthday1.png
+    - assets/images/currency1.png
+    - assets/images/ice_rink.png
+    - assets/images/classbooking.png
+    - assets/images/trainer.png
+    - assets/images/schedules.png
+    - assets/images/dcurrency.png
+    - assets/images/
+
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  fonts:
+    - family: HelveticaNeue
+      fonts:
+        - asset: assets/fonts/english/HelveticaNeueLight.otf
+    - family: HelveticaNeueMedium
+      fonts:
+        - asset: assets/fonts/english/HelveticaNeueMedium.otf
+    - family: HelveticaNeueRegular
+      fonts:
+        - asset: assets/fonts/english/HelveticaNeueRegular.ttf
+
+        #    - family: Dinar
+        #      fonts:
+        #        - asset: assets/fonts/arabic/DinarLight.otf
+
+        # - asset: assets/fonts/arabic/DinarLightItalic.otf
+        # - asset: assets/fonts/arabic/DinarMediumItalic.otf
+
+    #    - family: DinarMedium
+    #      fonts:
+    #        - asset: assets/fonts/arabic/DinarTwoMedium.otf
+
+    - family: CustomIcons
+      fonts:
+        - asset: assets/fonts/icons/CustomIcons.ttf
+
+    - family: TimerIcon
+      fonts:
+        - asset: assets/fonts/icons/TimerIcon.ttf
+
+    - family: RadioIcon
+      fonts:
+        - asset: assets/fonts/icons/RadioIcon.ttf
+
+    - family: Arrow
+      fonts:
+        - asset: assets/fonts/icons/Arrow.ttf
+
+    - family: CommonIcons
+      fonts:
+        - asset: assets/fonts/icons/CommonIcons.ttf
+
+    - family: PhoneCustomIcon
+      fonts:
+        - asset: assets/fonts/icons/PhoneCustomIcon.ttf
+
+    - family: Calendar
+      fonts:
+        - asset: assets/fonts/icons/Calendar.ttf
+
+    - family: PhoneIcon
+      fonts:
+        - asset: assets/fonts/icons/PhoneIcon.ttf
+    - family: AccountIcon
+      fonts:
+        - asset: assets/fonts/icons/AccountIcon.ttf
+
+    - family: FacilityHomeIcon
+      fonts:
+        - asset: assets/fonts/icons/FacilityHomeIcon.ttf
+
+    - family: WhatsAppIcon
+      fonts:
+        - asset: assets/fonts/icons/WhatsAppIcon.ttf
+
+    - family: AppleIcon
+      fonts:
+        - asset: assets/fonts/icons/AppleIcon.ttf
+
+    - family: ApplePayIcon
+      fonts:
+        - asset: assets/fonts/icons/ApplePayIcon.ttf

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "448160564242",
+    "firebase_url": "https://sharjah-ladies-club-4bdb3.firebaseio.com",
+    "project_id": "sharjah-ladies-club-4bdb3",
+    "storage_bucket": "sharjah-ladies-club-4bdb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448160564242:android:d7816509610c313e7204cb",
+        "android_client_info": {
+          "package_name": "com.sharjah.ladiesclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448160564242-o2fp01qn9hcfbg1q31m88aa6t3mlpmpc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPj2kWT9p_UmXzTh4M7kPYUKI4drTxOeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448160564242-o2fp01qn9hcfbg1q31m88aa6t3mlpmpc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "448160564242-2cglculgmgb6gu5tk5dvdqm1ohcv7p9b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sharjah.ladiesclub"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

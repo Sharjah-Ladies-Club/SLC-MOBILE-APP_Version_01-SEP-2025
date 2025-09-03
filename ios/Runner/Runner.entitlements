@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aps-environment</key>
+	<string>Production</string>
+	<key>com.apple.developer.in-app-payments</key>
+	<array>
+		<string>merchant.com.sharjah.ladiesclub</string>
+		<string>merchant.com.sharjahladiesclub.prodart</string>
+		<string>merchant.com.sharjahladiesclub.prodcocf</string>
+		<string>merchant.com.sharjahladiesclub.prodeve</string>
+		<string>merchant.com.sharjahladiesclub.prodmemb</string>
+		<string>merchant.com.sharjahladiesclub.prodnur</string>
+		<string>merchant.com.sharjahladiesclub.prodsbd</string>
+		<string>merchant.com.sharjahladiesclub.prodsbeach</string>
+		<string>merchant.com.sharjahladiesclub.prodsfit</string>
+		<string>merchant.com.sharjahladiesclub.prodslaf</string>
+		<string>merchant.com.sharjahladiesclub.prodsobb</string>
+		<string>merchant.com.sharjahladiesclub.prodsopool</string>
+		<string>merchant.com.sharjahladiesclub.prodspa</string>
+		<string>merchant.com.sharjahladiesclub.prodsskt</string>
+		<string>merchant.com.sharjahladiesclub.prodsspool</string>
+		<string>merchant.com.sharjahladiesclub.testart</string>
+		<string>merchant.com.sharjahladiesclub.testcocf</string>
+		<string>merchant.com.sharjahladiesclub.testeve</string>
+		<string>merchant.com.sharjahladiesclub.testmemb</string>
+		<string>merchant.com.sharjahladiesclub.testsbd</string>
+		<string>merchant.com.sharjahladiesclub.testsbeach</string>
+		<string>merchant.com.sharjahladiesclub.testsfit</string>
+		<string>merchant.com.sharjahladiesclub.testslaf</string>
+		<string>merchant.com.sharjahladiesclub.testsopool</string>
+		<string>merchant.com.sharjahladiesclub.testspa</string>
+		<string>merchant.com.sharjahladiesclub.testsskt</string>
+		<string>merchant.com.sharjahladiesclub.testsspool</string>
+		<string>merchant.com.sharjahladiesclub.prodsbqt</string>
+	</array>
+</dict>
+</plist>
